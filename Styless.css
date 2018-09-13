@@ -1,0 +1,100 @@
+.BLOK1_OSNOVA {
+    width: 100%;
+    height: 393px;
+    display:inline-block;
+    background-image: url(Images/shutterstoke.jpg);
+    
+}
+.blok_fon {
+        height:inherit;
+        width:25%;
+        display:inline-block;
+        
+    }
+.blok_tekst { 
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 71px;
+    margin: 36px 49px 15px;
+
+    
+}
+.blok_osnovnoy {display: block;
+    color: rgb(238, 235, 235);
+    font-size: 18px;
+    margin: 0 0 23px 79px;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1056px;
+    padding: 20px 10px 0;
+    position: relative;
+}
+.blok_picture1 {
+    
+    background-position: left -207px;
+    
+    height: 16px;
+    background-position: left -207px;
+    background-repeat : no-repeat;    
+    cursor: pointer;
+    line-height: 16px;
+    padding-left: 25px;
+    position: relative;
+    background-image: url(Images/LOGO_new.png);
+        
+    }
+.blok_picture2{
+
+    height: 16px;
+    background-position: left -207px;
+    background-image: url(Images/ChangeLg.png);
+    height: 16px;
+    background-position: left -207px;
+    background-repeat : no-repeat;    
+    cursor: pointer;
+    line-height: 16px;
+    padding-left: 25px;
+    position: relative;
+    }
+.blok_login_tekst{ border: 1px solid;
+    
+    padding: 7px 34px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.blok3{width: 50%;
+    height: 393px;
+    display:inline-block;
+    color: #fff;
+
+
+}
+.blok_zagolovok{    font-size: 36px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    color: #333;
+   
+    margin-left: 25px;
+    text-align: center
+    
+}
+.blok_tekstorg1{
+    font-size: 24px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.blok_tekstorg2{
+    font-size: 15px;
+    margin-left: 22px;
+    line-height: 25px;
+    margin-top: 13px;
+    color: #333;
+}
