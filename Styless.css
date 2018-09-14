@@ -1,100 +1,156 @@
-.BLOK1_OSNOVA {
+.conteyner_blok{
     width: 100%;
-    height: 393px;
-    display:inline-block;
-    background-image: url(Images/shutterstoke.jpg);
+    height: 200px;
+    
+    background-image: url(Images/Materials/shutterstoke.jpg);
+    
     
 }
-.blok_fon {
-        height:inherit;
-        width:25%;
-        display:inline-block;
-        
-    }
-.blok_tekst { 
-    color: #fff;
+
+.blok_fonHead_ww{
+    position: absolute;
+    left: calc(50% - 500px);
+    background-color: transparent;
+    height: 175px;
+    margin: 0 auto;
+    min-width: 1000px;
+    padding: 0 7px;
+    overflow: visible; 
+}
+.blok_onlyoffice{
+    height: 175px;
+    background-image: url(Images/Materials/onlyoffice.jpg);
+    width: 200px;
+    background-repeat: no-repeat;
+}
+.login{color: #fff;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 7px 10px;
+    font-weight: 20;
+    text-decoration: none;
+
+}
+
+.znachok{
+
+
+    
+}
+.blok_head{ 
+}
+.blok_zagolovok{color: #fff;
     font-size: 36px;
     font-weight: 500;
     line-height: 71px;
     margin: 36px 49px 15px;
-
-    
+    text-align: left;
+ 
 }
-.blok_osnovnoy {display: block;
-    color: rgb(238, 235, 235);
+.osnova{display: block;
+    color: #fff;
     font-size: 18px;
     margin: 0 0 23px 79px;
     position: relative;
     text-align: left;
-    margin: 0 auto;
-    max-width: 1056px;
-    padding: 20px 10px 0;
-    position: relative;
-}
-.blok_picture1 {
     
-    background-position: left -207px;
-    
-    height: 16px;
-    background-position: left -207px;
-    background-repeat : no-repeat;    
-    cursor: pointer;
-    line-height: 16px;
-    padding-left: 25px;
-    position: relative;
-    background-image: url(Images/LOGO_new.png);
-        
-    }
-.blok_picture2{
 
-    height: 16px;
-    background-position: left -207px;
-    background-image: url(Images/ChangeLg.png);
-    height: 16px;
-    background-position: left -207px;
-    background-repeat : no-repeat;    
-    cursor: pointer;
-    line-height: 16px;
-    padding-left: 25px;
-    position: relative;
-    }
-.blok_login_tekst{ border: 1px solid;
-    
-    padding: 7px 34px;
-    font-weight: 200;
-    text-decoration: none;
+}
+.DOCX1{  display: block;
     color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 79px;
+    position: relative;
+    text-align: left;
 
 }
-
-
-.blok3{width: 50%;
-    height: 393px;
-    display:inline-block;
+.DOCX2{ display: block;
     color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 79px;
+    position: relative;
+    text-align: left;
 
+}
+.DOCX3{  display: block;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 79px;
+    position: relative;
+    text-align: left;
 
 }
-.blok_zagolovok{    font-size: 36px;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    color: #333;
-   
-    margin-left: 25px;
-    text-align: center
-    
-}
-.blok_tekstorg1{
-    font-size: 24px;
-    margin-left: 22px;
-    margin-bottom: 10px;
-    color: #333;
-}
-.blok_tekstorg2{
+
+.blok_rabdoc{
+
+    height: 300px;
+    width: 800px; 
+    padding: 10px;
+    margin: auto;
+    background:moccasin;
+    background-repeat:  no-repeat;}
+
+.blok1{ 
+    height: 300px;  
+    width: 250px;
+    background: moccasin;
+    float: left;
     font-size: 15px;
-    margin-left: 22px;
-    line-height: 25px;
-    margin-top: 13px;
-    color: #333;
+    text-align: left;
+}
+.p{  color: #333   
+}
+
+.blok_img{    
+    margin: 0 auto;
+    height: 105px;
+    width: 100px;
+    background-repeat:  no-repeat;
+    background-image: url(Images/Materials/Icons1.png);
+  
+}
+.blok2{
+    height: 300px;
+    width: 250px;
+background:moccasin; 
+    float: left;
+
+    text-align: left;
+}
+.p{color: #333; 
+    font: normal 12px 'Open Sans',sans-serif;
+}
+
+.blok_img2{
+
+    margin: 0 auto;
+    height: 105px;
+    width: 100px;
+    background-repeat:  no-repeat;
+    background-image: url(Images/Materials/Icon2.png);
+}
+.blok3{height: 300px;
+    width: 250px;
+    float: left; 
+    margin: 0 auto;
+    background:moccasin;
+    
+}
+.p{color: #333; 
+    font: normal 12px 'Open Sans',sans-serif;
+
+}
+
+.blok_img3{
+    margin: 0 auto;
+    height: 105px;
+    width: 100px;
+   
+    background-repeat:  no-repeat;
+    background-image: url(Images/Materials/Icon3.png);
+    
+}
+.pperevorot{
+    
 }
