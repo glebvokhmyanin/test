@@ -1,0 +1,129 @@
+.page{width: 100%;
+    margin: 0 auto;
+}
+.page_header{width: 100%;
+    height: 500px;
+    background-repeat:  no-repeat;
+    position: absolute;
+    background-image: url(Images/Materials/shutterstoke.jpg);
+}
+.panel1{    position: absolute;
+    left: calc(50% - 500px);
+    background-color: transparent;
+    height: 75px;
+    margin: 0 auto;
+    min-width: 1000px;
+    padding: 0 7px;
+    overflow: visible;
+    
+}
+.picture{height: 75px;
+    width: 185px;
+    border: none;
+    
+    vertical-align: bottom;
+    background-image: url(Images/Materials/onlyoffice.jpg);
+    background-repeat:  no-repeat;
+    margin: 20px;
+}
+
+.logo{    float: right;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+.login{  float: right;
+    margin-top: -144px;
+    margin-right: 181px;
+    height: 100px;
+    width: 150px;
+   
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 7px 34px;
+    font-weight: 200;
+    text-decoration: none;}
+.lenguages{ height: 75px;
+    width: 100px;
+    float: right;
+    margin: -123px 110px 0 0;
+   
+}
+
+.flag{    height: 35px;
+    width: 35px;
+    
+    line-height: 16px;
+    padding-left: 25px;
+    position: relative;
+    background-image: url(Images/Materials/ChangeLg.png) ;
+    background-repeat:  no-repeat;
+    background-size: contain;
+    float: right;
+}
+.material{    width: 100%;
+    height: max-content;
+    padding-top: 75px;
+
+}
+.header1{    text-align: left;
+    margin: 0 auto;
+    max-width:960px;
+    padding: 110px 30px 10px;
+    position: relative;
+}
+h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 110px;
+    margin: 110px 30px 10px;
+}
+.text{font-size: 36px;
+    font-weight: 900;
+    line-height: 11px;
+    margin: 11px 30px px;
+
+}
+.text1{display: block;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 320px;
+    position: relative;
+    border: none;}
+.text2{    display: block;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 320px;
+    position: relative;
+    border: none;}
+.text3{    display: block;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 23px 320px;
+    position: relative;
+    border: none;}
+.search_string{   background-color: #fff;
+    border: 1px solid #bebebe;
+    padding: 30px 20px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: auto 48px;
+    z-index: 2;}
+    .line{
+        color: #c44747;
+    font-size: 14px;
+    position: absolute;
+    left: 32px;
+    top: 5px;
+    }
+    .avto{padding: 15px 20px;
+        border: 1px solid #bdbdbd;
+        border-right: none;
+    }
