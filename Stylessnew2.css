@@ -127,110 +127,22 @@ h1{
         border: 1px solid #bdbdbd;
         border-right: none;
     }
-    .search_string{   height:153 px ;
-        width: 1055px;
-         background-color: #fff;
-         margin: auto;
-         box-sizing: border-box;
-    }
-    .instring{ height:153 px ;
-        width: 960px;
-        background-color: #fff;
-        border: 2px solid #bebebe;
-        padding: 30px 20px;
-        padding-bottom: 10px;
-        position: relative;
+    .book{width: 831px;
+        height:270px;
+        margin:auto;
         border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        margin: auto 48px;
-        z-index: 2;
         box-sizing: border-box;
-        display:  inline-block;
-
-    }
-    
-    .avto_form_eror{color: #c44747;
-        font-size: 14px;
-        position: absolute;
-        left: 32px;
-        top: 5px;
-        margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    display:  inline-block;
-    }
-    
-
-
-        
-    input.avto_form_with_filed{  width: 312px;
-         height:46px ;
-        padding: 15px 20px;
-        border: 1px solid #bdbdbd;
-        border-right: none;
-        box-sizing: border-box;
-        align-content:space-around;
         display: inline-block;
-        float: left;
+        background-color: wheat;
     }
-    .avto_form_with_filed{
-        padding: 15px 20px;
-    border: 1px solid #bdbdbd;
-    border-right: none;
-    box-sizing: border-box;
-    }
-    .avto_form_bth{     background-color: #f16240;
-        border: none;
-        color: #fff;
-        cursor: pointer;
-        font-size: 15px;
-        font-weight: 500;
-        width: 218px;
+    .head_blok{width: 831px;
+        height:270px ;}
+    .line{padding-right: 20px;
+        padding-left: 20px;
+        height: 47px;}
+    .email{margin-left: -15px;
         height: 47px;
-        line-height: 45px;
-        text-align: center;
-        text-decoration: none;
-        margin: auto 390px;
-        float: left;
-        height:47px;
-         width: 217px;
-         box-sizing: border-box;
-         display:  inline-block;
-        }
-    .avto_form_or { 
-        height:20px;
-        width: 75px;
-        font-size: 15px;
-        margin-top: 12px;
-         margin-left: -365px;
-        margin-right: 11px;
-        box-sizing: border-box;
-        display: inline-block;
-            }
-    .bth_social{   
-        width: 218px;
-        height:33px;
-        position: relative;
-    }
-.pictures{width: 218px;
-    height:40px;
-    float: left;
-    box-sizing: border-box;
-    display: inline-block;
-}
-.pictures1{width: 102px;
-    height:40px;
-    float: left;
-    box-sizing: border-box;
-    display: inline-block;
-}
+        width: 115%;
+        padding-left: 15px;
 
-.icon{    display: inline-block;
-    
-    width: 18px;
-    height: 18px;
-    float:left;
- background-image: url(Images/Materials/icon_google.png);
- background-repeat:  no-repeat;
-}
+    }

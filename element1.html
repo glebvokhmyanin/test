@@ -1,12 +1,15 @@
 
 
-<div class = "general"> 
+
+
+    <div class ="search_string"> 
         <div class = "line">
-            <div clas ="element1">
-                <div class = "mail">
-                    <input id="confirmEmail" class="avto" type="text" placeholder="Введите свой email-адрес"> </div>
-                <div class ="start_search">
-                        <a id="confirmEmailBtn" class="start editing">Начать редактирование</a>
+                    <input id="confirmEmail" class="avto" type="text" placeholder="Введите свой email-адрес"> 
+                    <a id="confirmEmailBtn" class="start editing">Начать редактирование</a>
+                    <span class="enter">или войти</span>
+                    <span class = " img" ></span>
+                    <div class="in_enter">Пожалуйста, войдите, используя свой аккаунт</div>
+        
                 </div>
             </div>
             <div clas ="element2"><span class="el">или войти</span>
@@ -23,3 +26,40 @@
             <div class = "I_accept"></div>
         </div>
     </div>
+</div>
+
+
+<span class ="bth_social">
+        <div class ="label" >Пожайлуста,войдите, используя свой аккаунт </div>
+        <input type ="hidden" class ="login_message" value="">
+    </span>
+<div class ="social_login">
+    <div class ="acount_links">
+        <ul class ="clera_fix"></ul>
+    </div>
+</div>
+<div  class ="settings">
+<div class ="auth_form_setting">
+
+        <div id  ="emaileror" class=" avto_form_eror">
+                <input id = "emaileror"  class=" avto_form_with_filed" tupe  ="text" placeholder=" Введите свой email-адрес"> </div>
+                <a id  ="confirmemail_bth" class ="avto_form_bth">Начать редактирование </a>
+                <span class ="avto_form_or">или войти.</span>
+                <div class ="pictures">
+                    <div class ="pictures1">
+                            <a href="/login.ashx?auth=google&amp;mode=popup&amp;callback=loginJoinCallback" >
+                                <span class="icon"></span>
+                                    <span class="provider-text">Google</span>
+                            </a>
+                    </div>
+                <div class ="pictures2">
+                            <a href="/login.ashx?auth=facebook&amp;mode=popup&amp;callback=loginJoinCallback" class=" facebook" >
+                                <span class="icon"></span>   
+                            </a>
+                    </div>
+                <div class ="pictures3">
+                            <a href="/login.ashx?auth=linkedin&amp;mode=popup&amp;callback=loginJoinCallback" class="linkedin">
+                                <span class="icon"></span>
+                            </a>
+                    </div>
+                </div>
