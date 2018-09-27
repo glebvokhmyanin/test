@@ -3,6 +3,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title> ONLINEOFFICE </title>
   <link href="Stylessnew1.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="goscript.js" ></script>
 </head>
 <body>
     <div class ="page">
@@ -72,48 +74,23 @@
 
                 </div>
             </div>
-            <div class=" blok3"> 
-                    <div class ="all">
-                            <input  checked type ="radio" name="respond" id ="desktop">
-                            <article id ="slider">
-                                    <input   type ="radio" name="slider" id ="switch1">
-                                    <input   type ="radio" name="slider" id ="switch2">
-                                    <input   type ="radio" name="slider" id ="switch3">
-                                    <input   type ="radio" name="slider" id ="switch4">
-                                    <input   type ="radio" name="slider" id ="switch5">
-                                    <div id="slider">
-                                        <div id ="overflow">
-                                            <div class ="Image">
-                                                <article><img src="Images/Materials/share1.png"></article>
-                                                <article><img src="Images/Materials/share2.png"></article>
-                                                <article><img src="Images/Materials/share3.png"></article>
-                                                <article><img src="Images/Materials/share4.png"></article>
-                                                <article><img src="Images/Materials/share5.png"></article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id ="controls">
-                                        <label for ="switch1"></label>
-                                        <label for ="switch2"></label>
-                                        <label for ="switch3"></label>
-                                        <label for ="switch4"></label>
-                                        <label for ="switch5"></label>
-                                        
-                                    </div>
-                                    <div id ="active">
-                                            <label for ="switch1"></label>
-                                            <label for ="switch2"></label>
-                                            <label for ="switch3"></label>
-                                            <label for ="switch4"></label>
-                                            <label for ="switch5"></label>
-                                            
-                                        </div>
-                            </article>
-                                
-                            </div>
-                
-            
-            
+            <div class=" slider_v_1"> 
+                    <div id="slider_box">
+                            <ul>
+                                <li id="img_1"></li>
+                                <li id="img_2"></li>
+                                <li id="img_3"></li>
+                              
+                            </ul>
+                            
+                        </div>
+
+                       <div id="nav_slider">
+                           <div id="left_nav"></div>
+                           <div id="right_nav"></div>
+                       </div>
+                       </div>
+
             <div class ="blok4">
                 <div class =" inblok1">
                         <div class="blok_img"></div>
@@ -139,7 +116,26 @@
                 </div>
             </div>
             <div class ="blok6"></div>
-            <div class ="blok7_karusel"></div>
+            <div class ="blok7_karusel">
+                    <div class=" slideres"> 
+                    <div class="slider_box2">
+                            <ul>
+                                
+                                <li id="picture2"></li>
+                                <li id="picture3"></li>
+                                <li id="picture4"></li>
+                                <li id="picture5"></li>
+                                <li id="picture6"></li>
+                              
+                            </ul>
+                            
+                        </div>
+
+                       <div id="nav_slider2">
+                           <div id="left_navig"></div>
+                           <div id="right_navig"></div>
+                       </div>
+                    </div>
             <div class ="blok8">
                 <div class ="inblok5">
                     <h1 class="text_5"> Больше возможностей </h1> <hr>
@@ -187,8 +183,110 @@
                         <h1 class="text_5"> Отзывы пользователей </h1> <hr>
             </div>
             </div>
+             <div class=" slider3"> 
+                    <div class="slider_box3">
+                            <ul>
+                                <li> <div class ="listcomment1">
+                                    <div class="inlistcomment1_1">
+                                        <span class ="initials">Илья Расторгуев</span>
+                                        <span class ="date">22 марта 2016</span>
+                                    </div>
+                                    <div class="inlistcomment1_2">
+                                        Лучший облачный офис, что либо когда мне попадался.
+                                            Но вот личное пожелеание, добавьте возможность добавлять автособираемое оглавлениие.
+                                        
+                                    </div>
+                                </div> </li>
+                                <li> <div class ="listcomment2">
+                                        <div class="inlistcomment2_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment1-2_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment3">
+                                        <div class="inlistcomment3_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment3_2"></div>
+                                </div> </li>
+                                <li> <div class ="listcomment4">
+                                        <div class="inlistcomment4_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment4_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment5">
+                                        <div class="inlistcomment5_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment5_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment6">
+                                        <div class="inlistcomment6_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment6_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment7">
+                                        <div class="inlistcomment7_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment7-2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment8">
+                                        <div class="inlistcomment8_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment8_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment9">
+                                        <div class="inlistcomment9_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment9_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment10">
+                                        <div class="inlistcomment10_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment10_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                            </ul>
+                            
+                        </div>
 
-            <div class ="blok11"></div>
+                       <div id="nav_slider3">
+                           <div id="left_nav3"></div>
+                           <div id="right_nav3"></div>
+                       </div>
+                    </div>
+             </div>
+            </div>
 
                 
             </div>
