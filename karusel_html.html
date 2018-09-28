@@ -1,0 +1,152 @@
+<!DOCTYPE html >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> ONLINEOFFICE </title>
+  <link href="Stylessnew1.css" rel="stylesheet">
+</head>
+<body>
+    <div class ="big"></div>
+    <!--первая карусель-->
+ <div class=" slider"> 
+                    <div id="slider_box">
+                            <ul>
+                                <li id="img_1"></li>
+                                <li id="img_2"></li>
+                                <li id="img_3"></li>
+                              
+                            </ul>
+                            
+                        </div>
+
+                       <div id="nav_slider">
+                           <div id="left_nav"></div>
+                           <div id="right_nav"></div>
+                       </div>
+                       </div>
+                       <!--вторая карусель-->
+  <div class ="blok7_karusel">
+                    <div class=" slideres"> 
+                    <div class="slider_box2">
+                            <ul>
+
+                                <li id="picture2"></li>
+                                <li id="picture3"></li>
+                                <li id="picture4"></li>
+                                <li id="picture5"></li>
+                                <li id="picture6"></li>
+
+                            </ul> 
+
+                        </div>
+
+                       <div id="nav_slider2">
+                           <div id="left_navig"></div>
+                           <div id="right_navig"></div>
+                       </div>
+                    </div>
+                </div>
+                <!--третья карусель-->
+                <div class=" slider3"> 
+                    <div class="slider_box3">
+                            <ul>
+                                <li> <div class ="listcomment1">
+                                    <div class="inlistcomment1_1">
+                                        <div class ="initials">Илья Расторгуев</div>
+                                        <div class ="date">22 марта 2016</div>
+                                        <div class ="inlistcommenter">Лучший облачный офис, что либо когда мне попадался.
+                                                Но вот личное пожелеание, добавьте возможность добавлять автособираемое оглавлениие.</div>
+                                    </div>
+                                    <div class="inlistcomment1_2">
+                                        <div class ="initials1"> Карина Вебра</div>
+                                        <div class ="date1"> 26 Марта 2017</div>
+                                        <div  class="inlisterer"> Помимо того, что сервис отличный, он помог мне спасти человека с курсачем :) Сервс профиксил документы с решением docm (стандартаная ошибка в макросах Word 2010, не открывает после редактирования)
+                                                и восстановил пользовательские стили. Все круто , буду пользоваться в связке с облаком!  Спаибо разработчику Андрею за "рекламу"
+                                               сайта у нас в ДФ ННГУ.    </div>
+                                    </div>
+                                </div> </li>
+                                <li> <div class ="listcomment2">
+                                        <div class="inlistcomment2_1">
+                                                        <div class ="initials2"><p class ="yyy"> Sergey Strelniko</p></div>
+                                                        <div class ="date2">14 Октября 2016</div>
+                                                        <div class ="inlistcommenter2">Понравилось.Твердая 5+</div>
+                                                    </div>
+                                        <div class="inlistcomment2_2">
+                                                        <div class ="initials2_1"><p class = "qaz">Виталий Койструб</p></div>
+                                                        <div class ="date2_1">18 Августа 2016</div>
+                                                        <div class ="inlistcommenter2_1"> Отлично!</div>
+
+                                                    </div>
+
+                                                </div>          
+                                        </li>
+                                <li> <div class ="listcomment3">
+                                        <div class="inlistcomment3_1">
+                                                <div class ="initials3"> Илья Расторгуев</div>
+                                                <div class ="date3"> 22 Марта 2018 </div>
+                                                <div class ="incomenteg3_1">  <p class="iliacomment"> Лучший "облачный офис", что мне когда-либо попадался.
+                                                        Но вот личное пожелание, добавьте возможность добавлять автособираемые оглавлениие.</p>
+                                                </div>
+                                        </div>
+                                        <div class="inlistcomment3_2">
+                                                        <div class ="initials33"> Дмитрий Маликов</div>
+                                                        <div class ="date3_2"> 23 Февраля 2016 </div>
+                                                        <div class ="incomenteg_3">  <p class="diacomment"> Лучший "облачный офис", что мне когда-либо попадался.
+                                                                Но вот личное пожелание, добавьте возможность добавлять автособираемые оглавлениие.</p>
+                                                        </div>
+                                        </div>
+                                </div> </li>
+                                <li> <div class ="listcomment4">
+                                        <div class="inlistcomment4_1">
+                                                <span class ="initials"></span>
+                                                <span class ="date"></span>
+                                        </div>
+                                        <div class="inlistcomment4_2">
+                                                <p class ="comentary"></p>
+                                        </div>
+                                </div> </li>
+                                </ul>
+                            <div id="nav_slider3">
+                                        <div id="left_nav3"></div>
+                                        <div id="right_nav3"></div>
+                                    </div>
+                            
+                        </div>
+
+                       
+                    </div>
+                </div>
+                <!--skript1java-->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        function Slider(width_li,margin_right_li,col_view_img){
+            var step=width_li+margin_right_li,
+                slider_box_with=col_view_img*step-margin_right_li,
+                $col_img=$("#slider_box>ul>li").length,
+                col_main_left=0,
+                max_col_main_left=$col_img*step;
+            $("#slider_box").width(slider_box_with);
+            $("#slider_box>ul>li").width(width_li).css("margin-right",margin_right_li);
+            $("#left_nav").click(function(){
+                if(-col_main_left==max_col_main_left-col_view_img*step){
+                    col_main_left=0;
+                } else{
+                    col_main_left=col_main_left-step;
+                }
+                $("#slider_box>ul").css("margin-left",col_main_left+"px");
+            });
+            $("#right_nav").click(function(){
+                if(col_main_left==0){
+                    col_main_left=-max_col_main_left+col_view_img*step;
+                } else{
+                    col_main_left=col_main_left+step;
+                }
+                $("#slider_box>ul").css("margin-left",col_main_left+"px");
+            });
+        }
+        $(Slider(200,10,3));
+    </script>
+              
+         
+ </body>
+ </html>
+                    
