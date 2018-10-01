@@ -1,0 +1,77 @@
+.slideshow-container{max-width: 1005px;
+height: 520px;
+position: relative;
+padding-left: 343px;
+text-align: center;
+display: inline-block;
+}
+.mySlidesFade{width: 1000px;
+    height: 507px;
+    border-bottom-color: blue;
+    border-radius: 2px;
+    margin:auto;
+    text-align: center; 
+    display: inline-block;
+margin-left: 100px; }
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -116px;
+    padding: 16px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0.3px 3px 0;
+    margin-left: -363px;
+}
+.next{cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -100px;
+    padding: 16px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+margin-left: 10px;}
+    .prev :hover, next:hover{
+background-color: rgba(0,0,0, 0.8);}
+.text{
+    color: blueviolet;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top:0px;
+    text-align: center;}
+.dot{ cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin:0 2px;
+    background-color: brown;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+background-position: 50px;}
+.active, dot:hover{ background-color: blue;}
+.fade{ -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to{opacity: .1}}
+@keyframes fade{
+    rom {opacity: .4}
+    to{opacity: .1}
+}
+.ups{
+    text-align: center;
+    margin:auto;
+    width: 120px;
+margin-top: -200px;}
