@@ -1,0 +1,99 @@
+#stripe{}
+  .box{width: 4500px;
+      height: 500px;
+      display: inline-block;
+      margin:auto;
+  }
+  #stripe.animate {
+    margin-left: -700px;
+    transition-property: margin-left;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  #stripe.animate-right {
+      margin-left: 700px;
+      transition-property: margin-left;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+    }
+    
+  #next{ width: 30px;
+      height: 50px;
+      cursor: pointer;
+      padding-left: 1px;
+      padding-right: 1px;
+      margin-left:400px;
+     margin-top: -242px;
+      position: absolute;}
+  #prev{ width: 30px;
+      height: 50px;
+      cursor: pointer;
+      margin-left: 1200px;
+      position: absolute;
+      margin-top: -242px;
+  }
+  .img{ width: 520px;
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+
+  }
+  .kar1{  width: 520px;
+    height: 300px;
+    background-image: url("D:/Repo/test/scrin/skrin1.png");
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+    display: inline-block;
+}
+.kar2{  width: 520px;
+    height: 300px;
+    background-image: url( "D:/Repo/test/scrin/skrin2.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+.kar3{   width: 520px;
+    height: 300px;
+    background-image: url( "D:/Repo/test/scrin/skrin3.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+
+}
+.kar4{  width: 520px;
+    height: 300px;
+    background-image: url( "D:/Repo/test/scrin/skrin4.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+.kar5{   width: 520px;
+    height: 300px;
+    background-image: url( "D:/Repo/test/scrin/skrin5.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+
+}
+.kar6{   width:520px;
+    height: 300px;
+    background-image: url( "D:/Repo/test/scrin/skrin6.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 1px;
+
+}
+    
+    
