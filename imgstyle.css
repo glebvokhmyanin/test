@@ -1,7 +1,7 @@
 
 #digit {
-  width:500px;
-  height: 400px;
+  widows: 2000px;
+  height: 600px;
   overflow: hidden;
   font: 32px "Courier New", monospace;
   margin: auto;
@@ -9,29 +9,27 @@
 }
 
 #stripe.animate {
-  margin-left: -174px;
+  margin-left: -700px;
   transition-property: margin-left;
   transition-duration: 1s;
   transition-timing-function: linear;
 }
 #stripe.animate-right {
-    margin-left: 174px;
+    margin-left: 700px;
     transition-property: margin-left;
     transition-duration: 1s;
     transition-timing-function: linear;
   }
  
-   
-
-
-#stripe{ width: 1200px;
+#stripe{ width: 2000px;
     height: 500px;
     display: inline-block;
     overflow: hidden;}
-.box{width: 1200px;
+.box{width: 600px;
     height: 500px;
     display: inline-block;
     margin:auto;
+    overflow: hidden;
 }
 #next{ width: 30px;
     height: 50px;
@@ -49,27 +47,51 @@
     margin-top: -242px;
 }
 
-.img{ width: 500px;
-    height: 300px;
+.img{ width: 600px;
+    height: 500px;
+    display: inline-block;}
+.img1{width: 600px;
+    height: 500px;
+    background-image: url(Images/Materials/1Create.png);
+    background-repeat: no-repeat;
     display: inline-block;
+    margin: auto;
+}
+.img2{ width: 600px;
+    height: 500px;
+    background-image: url(Images/Materials/2Create.png);
+    background-repeat: no-repeat;
+    display: inline-block; 
+    margin: auto;
+}
+.img3{ width: 600px;
+    height: 500px;
+    background-image: url(Images/Materials/2Create.png);
+    background-repeat: no-repeat;
+    display: inline-block;   
+    margin: auto;
+}
+.mmm{width: 600px;
+    height: 500px;
+    margin:auto;
     overflow: hidden;
-
-}
-.img1{width: 250px;
-height: 300px;
-background-image: url(Images/Materials/1Create.png);
-    background-repeat: no-repeat;
-}
-.img2{ width: 250px;
-    height: 300px;
-    background-image: url(Images/Materials/2Create.png);
-    background-repeat: no-repeat;
-}
-.img3{ width: 250px;
-    height: 300px;
-    background-image: url(Images/Materials/2Create.png);
-    background-repeat: no-repeat;
 }
 
+.carousel_box{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+.text35{ width: 600px;
+    height: 50px;
+    font-size: 25px;
+   
+}
+.text36{width: 530px;
+    height: 105px;
+    font-size: 15px;
 
+    margin-bottom: 10px;
 
+}
