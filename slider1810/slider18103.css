@@ -1,0 +1,314 @@
+.slider3{ width: 4000px;
+    height:358px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;}
+    
+#slider_box {width: 4000px;
+        height: 500px;
+        margin-right: 0px;
+        margin-left: 370px;
+        margin-top: 10px;
+        padding: o;
+        overflow: hidden;
+        position: relative;
+        display:inline-block;}
+#slider_box>ul>li {
+        width: 1000px;
+        height: 500px;
+        display:inline-block;}
+#slider_box>ul { width:1000px;
+        height: 500px;
+        display: inline-block;}
+   
+    
+.next {width: 60px;
+        height: 30px;
+        margin-left: 326px;
+       margin-right: 10px;
+        margin-top: -237px;
+        float: left;
+      }
+.prev {width: 60px;
+        height:30px;
+        float: left;
+       margin-left: 1420px;
+       margin-right: 10px;
+        margin-top: -210px;
+       display: inline-block;}
+.coment{display: inline-block; }    
+.listcomment1{
+    width: 1000px;
+    height:270px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    }
+.inlistcomment1_1{
+    width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-image: url(avafon.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 50px;}
+.initials{ width: 130px;
+    height:17px;
+    font-weight: bold;
+    margin-right: 210px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;}
+.date{ font:icon;
+    width: 116px;
+    height:17px;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-left: 0px;
+    text-align: center;
+    padding-left: 10px;}
+.inlistcommenter{
+    width: 372px;
+    height:130px;
+    margin-right: 10px;
+    margin-top: 14px;
+    margin-left: -50px;
+    text-align: justify;
+    display: inline-block;
+ }
+.inlistcomment1_2{
+    width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: -118px;
+    margin-left: 555px;
+    background-image: url(ava1.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 2px;
+    font-size: 15px;}
+.initials1{width: 140px;
+    height:20x;
+    font-weight: bold;
+    margin-right: 210px;
+    margin-top: 0px;
+    margin-left: 25px;
+    text-align: center; }
+.date1{font:icon;
+    width: 150px;
+    height:17px;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-left: 25px;
+    text-align: center;}
+.inlisterer{
+    width: 372px;
+    height:130px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left: -5px;
+    text-align: left;
+    display: inline-block;
+   
+    padding-top: 15px;
+    text-align: justify;}
+.listcomment2{ width: 1000px;
+    height:270px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: -15px;
+    display: inline-block;
+  }
+.inlistcomment2_1{
+    width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-image: url(ava3.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 50px;}
+.initials2{width: 140px;
+    height:20x;
+    font-weight: bold;
+    margin-right: 210px;
+    margin-top: 7px;
+    margin-left: 15px;
+    text-align: center;}
+.date2{font:icon;
+    width: 150px;
+    height:17px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: 61px;
+    text-align: center;}
+.yyy{ width: 250px;
+    height: 25px;
+    margin-top: -12px;
+    margin-right: -74px;
+    font-size:18px;
+    margin-left: 1px;}
+.inlistcommenter2{ width: 372px;
+    height:130px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left: -39px;
+    text-align: left;
+    display: inline-block;
+  
+    padding-top: 15px;
+    text-align: justify;}
+.inlistcomment2_2{  width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: -121px;
+    margin-left: 560px;
+    background-image: url(ava4.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 50px;}
+.initials2_1{
+    width: 300px;
+    height:20px;
+    font-weight: bold;
+    margin-right: 210px;
+    margin-top: -8px;
+    margin-left: 7px;
+    text-align: center;}
+.date2_1{font:icon;
+    width: 150px;
+    height:17px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;}
+.qaz{ width: 300px;
+    height:20x;
+    margin-top: 3px;
+    margin-left: -58px;
+    font-size: 18px;}
+.inlistcommenter2_1{width: 372px;
+    height:130px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left:-50px;
+    text-align: left;
+    display: inline-block;
+    text-align: justify;} 
+.listcomment3{
+    width: 1000px;
+    height:270px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left:-12px; 
+    display: inline-block;}
+.inlistcomment3_1{
+    width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-image: url(ava6.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 50px;}
+.initials3{width: 250px;
+    height:20x;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-top: -4px;
+    margin-left: 27px;
+    text-align: left;}
+.date3{font:icon;
+    width: 250px;
+    height:17px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: 26px;
+    text-align: left;}
+
+.incomenteg3_1{ width: 372px;
+    height:150x;
+    margin-top: 3px;
+    margin-left: -59px;
+    font-size: 17px;
+}
+.iliacomment{ width: 372px;
+    height:145x;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 17px;}
+
+.inlistcomment3_2{
+    width: 490px;
+    height:125px;
+    margin-right: 10px;
+    margin-top: -123px;
+    margin-left: 460px;
+    background-image: url(ava5.png);
+    background-repeat: no-repeat;
+    
+    float: left;
+    padding-left: 50px;}
+.initials33{width: 140px;
+        height:20x;
+        font-weight: bold;
+        margin-right: 210px;
+        margin-top: -5px;
+        margin-left: 8px;
+        text-align: center;}
+
+.date3_2{font:icon;
+    width: 280px;
+    height:30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left:-64px;
+    text-align: center;}
+.incomenteg_3{width: 372px;
+    height:130px;
+    margin-top: 3px;
+    margin-left: -10px;
+    font-size: 18px;}
+.diacomment{width: 370px;
+    height:130x;
+    margin-top: -6px;
+    margin-left: -38px;
+    font-size: 17px;}
+
+#stripe2.animate {
+    margin-left: -700px;
+    transition-property: margin-left;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+      }
+ #stripe2.animate-right {
+    margin-left: 700px;
+    transition-property: margin-left;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+        }
+       
+ #stripe2{ width: 4000px;
+    height: 500px;
+    display: inline-block;
+    overflow: hidden;}
+.coment{width: 1000px;
+    height: 500px;
+     display: inline-block;
+     margin:auto;
+    overflow: hidden;
+      }
+
+
+      
+
+
+

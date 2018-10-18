@@ -1,4 +1,9 @@
 #stripe{}
+.body{
+    background-color: white;
+display: flex;
+font-family: Arial;
+}
   .box{width: 600px;
       height: 500px;
       display: inline-block;
@@ -33,7 +38,12 @@
       position: absolute;
       margin-top: -242px;
   }
-  .img{ width:3000px;
+  .img.curry{width: 600px;
+    height: 300px;
+    display: block;
+    background-color: white;}
+
+.img{ width:600px;
     height: 300px;
     overflow: hidden;
     display: inline-block;

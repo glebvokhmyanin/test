@@ -1,4 +1,3 @@
-
 var width = 600;
 var count = 1;
 var carousel = document.getElementById('carousel');
@@ -27,4 +26,5 @@ carousel.querySelector ('.prev').onclick = function(){
 
 carousel.querySelector('.next').onclick = function(){
     position = Math.max(position - width * count, -width * (ListElements.length - count));
-    list.style.marginLeft =  position + 'px';};
+    list.style.marginLeft =  position + 'px';
+};

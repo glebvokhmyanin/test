@@ -697,109 +697,72 @@ margin-top: 10px;}
     margin: auto;
     display: inline-block;
     background-color:white; }
-.slideres{ width: 1840px;
-    height:400px ;
+    .body{
+        background-color: black;
+        padding: 10px;
     }
-.kar{width: 100%;
-
-}
-
-.inkarboox{width: 600px;
-    height: 500px;
-    display: inline-block;
-    margin:auto;}
-#stripe1.animate {
-    margin-left: -700px;
-    transition-property: margin-left;
-    transition-duration: 1s;
-    transition-timing-function: linear;}
-#stripe1.animate-right {
-    margin-left: 700px;
-    transition-property: margin-left;
-    transition-duration: 1s;
-    transition-timing-function: linear;}
+    .carousel {
         
-#next1{ width: 30px;
-    height: 50px;
-    cursor: pointer;
-    padding-left: 1px;
-    padding-right: 1px;
-    margin-left:400px;
-    margin-top: -262px;
-    position: absolute;}
-#prev1{ width: 30px;
-    height: 50px;
-    cursor: pointer;
-    margin-left: 1200px;
-    position: absolute;
-    margin-top: -262px;}
-.imgkar{ width:3000px;
-    height: 300px;
-    overflow: hidden;
-    display: inline-block;
-    margin: auto;
+        position: absolute;
+        left:38%;
+        margin-top: 12%;
+        transform: translate(-50%,-50%);
+        font-size: 0;
     
-      }
-.imgkar1{  width: 520px;
-    height: 300px;
-    background-image: url("D:/Repo/test/scrin/skrin1.png");
-    background-repeat: no-repeat;
-    padding-left: 0px;
-    padding-right: 1px;
-    padding-top: 1px;
-    display: inline-block;
+    
     }
-.imgkar2{  width: 520px;
-    height: 300px;
-    background-image: url( "D:/Repo/test/scrin/skrin2.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 0px;
-     padding-right: 1px;
-    padding-top: 1px;}
-.imgkar3{   width: 520px;
-    height: 300px;
-    background-image: url( "D:/Repo/test/scrin/skrin3.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 1px;
-    padding-top: 1px;}
-.imgkar4{  width: 520px;
-    height: 300px;
-    background-image: url( "D:/Repo/test/scrin/skrin4.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 1px;
-    padding-top: 1px;}
-.imgkar5{   width: 520px;
-    height: 300px;
-    background-image: url( "D:/Repo/test/scrin/skrin5.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 1px;
-    padding-top: 1px;}
-.imgkar6{   width:520px;
-    height: 300px;
-    background-image: url( "D:/Repo/test/scrin/skrin6.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 0px;
-    padding-right: 1px;
-    padding-top: 1px;}
-        
-
-
-
-
-
-
-
-
-
-
+    .carousel img{width: 600px;
+        height: 400px;
+        display: block;
+    
+    }
+    .prev{
+    
+        position: absolute;
+        margin-top: -218px;
+        font-size: 44px;
+        background: none;
+        border:none;
+        outline: none;
+        background-repeat: no-repeat;
+        margin-left:390px;
+    }
+    .next{ 
+        position: absolute;
+    
+        font-size: 60px;
+        background: none;
+        border:none;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        background-image: url(3s.PNG);
+        background-repeat: no-repeat;
+        margin-top: -215px;
+      margin-left: 1060px;
+    }
+    
+    
+    .galery{
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 440px;
+     margin-top: 50px;
+    }
+    .galery ul{
+        height: 400px;
+        width: 9999px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+       transition: margin-left 500ms;
+    
+    }
+    .galery li{
+        display: inline-block;
+    
+    }
 /* 
   Хрень..
 */
