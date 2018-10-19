@@ -1,26 +1,80 @@
-<!DOCTYPE html >
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title> ONLINEOFFICE </title>
-  <link href="slider1810style.css" rel="stylesheet">
-</head>
-<body>
-<div id ="carousel" class ="carousel">
-        <div class ="galery">
-                <ul class ="images">
-                    <li> <img src="1Create.png" alt=""> </li>
-                    <li> <img src="2Create.png" alt=""> </li>
-                    <li> <img src="3Create.png" alt=""> </li>
-                 
-                </ul>
-            </div>
-            <button class =" prev">◀</button>
-            <button class =" next">▶</button>
-    </div>
-  
-    <script src ="slider1810.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</body>
+.body{
+    background-color: black;
+    padding: 10px;
+}
+.carousel {
+    
+    position: absolute;
+    left:38%;
+    margin-top: 12%;
+    transform: translate(-50%,-50%);
+    font-size: 0;
 
-</html>
+
+}
+.carousel img{width: 600px;
+    height: 400px;
+    display: block;
+
+}
+.prev{
+
+    position: absolute;
+    margin-top: -218px;
+    font-size: 44px;
+    background: none;
+    border:none;
+    outline: none;
+    background-repeat: no-repeat;
+   
+    margin-left:390px;
+
+  
+
+}
+.next{ 
+    position: absolute;
+
+    font-size: 43px;
+    background: none;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-image: url(3s.PNG);
+    background-repeat: no-repeat;
+
+    margin-top: -215px;
+  margin-left: 1060px;
+}
+
+.galery{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 440px;
+ margin-top: 50px;
+}
+.galery ul{
+    height: 400px;
+    width: 9999px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   transition: margin-left 500ms;
+
+}
+.galery li{
+    display: inline-block;
+
+}
+.text35{ width: 600px;
+    height: 50px;
+    font-size: 10px;
+    margin-left: 25px;
+    float: left;}
+    .text36{width: 530px;
+    height: 105px;
+    float: left;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;}
