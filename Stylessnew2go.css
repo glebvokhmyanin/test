@@ -148,6 +148,8 @@
     position: absolute;
     margin-left: 35px;
     background-color:white;
+ 
+
 }
 #blok.default{
     position: absolute;
@@ -156,8 +158,8 @@
     
     }
 .fixet{
-    position:fixed !important;
-    top: 1px;
+
+    z-index: 1;
     }
 .line{width: 829px;
     height:47px;
@@ -276,51 +278,45 @@ hr{border: 0;
     background: linear-gradient(to right, #f58c73, #fff);
     width: 107px;
     float: left;}
+
+       /* 
+  Блок 1
+*/
+
 .slideshow-container{max-width: 1005px;
  height: 520px;
  position: relative;
 padding-left: 343px;
 text-align: center;
 display: inline-block; }
-.carousel {
+.caro {
  position: absolute;
-left:38%;
-margin-top: 12%;
+margin-left: 580px;
+margin-top: 8%;
 transform: translate(-50%,-50%);
 font-size: 0;
 }
-.carousel img{width: 600px;
+.caro img{width: 1000px;
     height: 400px;
     display: block;
+    margin-left: 7px;
 
 }
-.prev{
-
+.nexts{ width: 30px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 1060px;
     position: absolute;
-    margin-top: -218px;
-    font-size: 44px;
-    background: none;
-    border:none;
-    outline: none;
-    background-repeat: no-repeat;
-   
-    margin-left:390px;
-}
-.next{ 
+    margin-top: -242px;;}
+.prevs{ width: 30px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 400px;
     position: absolute;
-    background-image: url(slider18101/3s.png);
-    font-size: 43px;
-    background: none;
-    border:none;
-    outline: none;
-    background-repeat: no-repeat;
-    margin-top: -215px;
-  margin-left: 1060px;
+    margin-top: -200px;
 }
-
-
 .galery{
-    width: 600px;
+    width: 1000px;
     height: 400px;
     overflow: hidden;
     margin-left: 440px;
@@ -349,7 +345,7 @@ font-size: 0;
 
 .blok4{ width: 900px;
     height: 280px;
-    padding-top: 30px;
+    padding-top: 420px;
     padding-bottom: 60px;
     padding-left: 43px;
      margin-left: auto;
@@ -464,12 +460,17 @@ height: 304px;
 margin: auto;
 padding: 0;
 background-color: white;
-margin-top: -711px;}
+margin-top: -430px;}
+
 .text_5{font-weight: 350;
-    line-height: 1.2;
-    color: #333;
-    text-align: left;
-    font-size: 36px;}
+line-height: 1.2;
+color: #333;
+font-size: 36px;
+margin-left: 0px;}
+.g{margin-left: 350px;
+
+}
+
 .inblok_5{width: 1026px;
     height:90px ;
     font-size: 14px;
@@ -562,7 +563,7 @@ p{max-width: 860px;
     height: 453px;
     margin:auto;
     background-color:white;
-    margin-top: -681px;}
+    margin-top: -372px;}
 .text_5{ width: 1022px;
     height: 48px;
     text-align: left;
@@ -665,45 +666,114 @@ background-image: url(Images/Materials/Android.png);
 background-repeat: no-repeat;
 margin-top: 20px;
 margin-right: 4px;
-display: inline-block;}
+display: inline-block;
+}
+/* 
+ карусель2
+*/ 
+.carousel{
+    
+    position: absolute;
+    left:38%;
+    margin-top: 12%;
+    transform: translate(-50%,-50%);
+    font-size: 0;
+}
+.carousel img{width: 600px;
+    height: 400px;
+    display: block;
 
+}
 
+.next{ width: 30px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 1060px;
+    position: absolute;
+    margin-top: -242px;;}
+.prev{ width: 30px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: -242px;}
+.galeryss{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 440px;
+ margin-top: 50px;
+}
+.galeryss ul{
+    height: 400px;
+    width: 9999px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   transition: margin-left 500ms;
 
+}
+.galeryss li{
+    display: inline-block;
 
-    /* 
-Третья карусель
-*/
+}
+
+/* 
+ карусель3
+*/ 
 .slider3{ width: 4000px;
     height:358px;
     margin-right: 10px;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: -150px;
     display: inline-block;}
+        
+.carouseler {      
+    position: absolute;
+    left:39%;
+    margin-top: 12%;
+    transform: translate(-50%,-50%);
+    font-size: 0;
     
-#slider_box {width: 4000px;
-        height: 500px;
-        margin-right: 0px;
-        margin-left: 370px;
-        margin-top: 10px;
-        padding: o;
-        overflow: hidden;
-        position: relative;
-        display:inline-block;}
-#slider_box>ul>li {
-        width: 4000px;
-        height: 500px;
-        display:inline-block;}
-#slider_box>ul { width:2000px;
-        height: 500px;
-        display: inline-block;}
-   
+    }
+.carouseler img{width: 600px;
+    height: 400px;
+    display: block;
+     }
+.gelaryz{
+     width: 1010px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 440px;
+    margin-top: 50px;
+        }
+.gelaryz ul{
+     height: 400px;
+    width: 9999px;
+    padding: 0;
+    margin-left: 10px;
+    list-style: none;
+    transition: margin-left 700ms;
 
-.coment{display: inline-block;
-    width: 6000px;
-    height: 500px; 
-    margin:auto;
-    overflow: hidden;} 
-
+        }
+.gelaryz li{
+    display: inline-block;
+        
+        }    
+.next {width: 60px;
+    height: 30px;
+    margin-left: 1440px;
+    margin-right: 10px;
+    margin-top: -300px;
+    float: left;
+          }
+.prev {width: 60px;
+    height:30px;
+    float: left;
+    margin-left: 380px;
+    margin-right: 10px;
+    margin-top: -310px;
+    display: inline-block;}   
 .listcomment1{
     width: 1000px;
     height:270px;
@@ -711,14 +781,14 @@ display: inline-block;}
     margin-top: 0px;
     margin-left: 0px;
     display: inline-block;
-    }
+        }
 .inlistcomment1_1{
     width: 490px;
     height:125px;
     margin-right: 10px;
     margin-top: 10px;
     margin-left: 40px;
-    background-image: url(slider1810/avafon.png);
+    background-image: url(slider1810/ava1.png);
     background-repeat: no-repeat;
     float: left;
     padding-left: 50px;}
@@ -745,16 +815,17 @@ display: inline-block;}
     margin-right: 10px;
     margin-top: 14px;
     margin-left: -50px;
-    text-align: justify;
+  list-style-type: decimal;
     display: inline-block;
- }
+    
+     }
 .inlistcomment1_2{
     width: 490px;
     height:125px;
     margin-right: 10px;
     margin-top: -118px;
     margin-left: 555px;
-    background-image: url(slider1810/ava1.png);
+    background-image: url(slider1810/ava2.png);
     background-repeat: no-repeat;
     float: left;
     padding-left: 2px;
@@ -781,7 +852,6 @@ display: inline-block;}
     margin-left: -5px;
     text-align: left;
     display: inline-block;
-   
     padding-top: 15px;
     text-align: justify;}
 .listcomment2{ width: 1000px;
@@ -790,7 +860,7 @@ display: inline-block;}
     margin-top: 0px;
     margin-left: -15px;
     display: inline-block;
-  }
+ }
 .inlistcomment2_1{
     width: 490px;
     height:125px;
@@ -828,7 +898,6 @@ display: inline-block;}
     margin-left: -39px;
     text-align: left;
     display: inline-block;
-  
     padding-top: 15px;
     text-align: justify;}
 .inlistcomment2_2{  width: 490px;
@@ -857,7 +926,7 @@ display: inline-block;}
     text-align: center;}
 .qaz{ width: 300px;
     height:20x;
-    margin-top: 3px;
+     margin-top: 3px;
     margin-left: -58px;
     font-size: 18px;}
 .inlistcommenter2_1{width: 372px;
@@ -899,19 +968,19 @@ display: inline-block;}
     margin-top: 3px;
     margin-left: 26px;
     text-align: left;}
-
+    
 .incomenteg3_1{ width: 372px;
     height:150x;
     margin-top: 3px;
     margin-left: -59px;
     font-size: 17px;
-}
+    }
 .iliacomment{ width: 372px;
     height:145x;
     margin-top: 10px;
     margin-left: 0px;
     font-size: 17px;}
-
+    
 .inlistcomment3_2{
     width: 490px;
     height:125px;
@@ -920,20 +989,19 @@ display: inline-block;}
     margin-left: 460px;
     background-image: url(slider1810/ava5.png);
     background-repeat: no-repeat;
-    
     float: left;
     padding-left: 50px;}
 .initials33{width: 140px;
     height:20x;
-     font-weight: bold;
+    font-weight: bold;
     margin-right: 210px;
     margin-top: -5px;
     margin-left: 8px;
     text-align: center;}
-
+    
 .date3_2{font:icon;
     width: 280px;
-    height:30px;
+     height:30px;
     margin-right: 10px;
     margin-top: 0px;
     margin-left:-64px;
@@ -947,127 +1015,10 @@ display: inline-block;}
     height:130x;
     margin-top: -6px;
     margin-left: -38px;
-    font-size: 17px;}
-
-#stripe2.animate {
-    margin-left: -700px;
-    transition-property: margin-left;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-      }
- #stripe2.animate-right {
-    margin-left: 700px;
-    transition-property: margin-left;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-        }
-       
- #stripe2{ width: 4000px;
-    height: 500px;
-    display: inline-block;
-    overflow: hidden;}
-
-
-
-      
-
-
-
-
-/* 
- карусель2 
-*/ 
-#digit {
-    widows: 2000px;
-    height: 600px;
-    overflow: hidden;
-    font: 32px "Courier New", monospace;
-    margin: auto;
-    
-  }
-  
-  #stripe.animate {
-    margin-left: -700px;
-    transition-property: margin-left;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-  }
-  #stripe.animate-right {
-      margin-left: 700px;
-      transition-property: margin-left;
-      transition-duration: 1s;
-      transition-timing-function: linear;
-    }
-   
-  #stripe{ width: 2000px;
-      height: 500px;
-      display: inline-block;
-      overflow: hidden;}
-  .box{width: 600px;
-      height: 500px;
-      display: inline-block;
-      margin:auto;
-      overflow: hidden;
-  }
-  #next{ width: 30px;
-      height: 50px;
-      background-image: url(slider18101/3s.png);
-      padding-left: 1px;
-      padding-right: 1px;
-      margin-left:400px;
-     margin-top: -242px;
-      position: absolute;}
-  #prev{ width: 30px;
-      height: 50px;
-      cursor: pointer;
-      margin-left: 1200px;
-      position: absolute;
-      margin-top: -242px;
-  }
-  
-  .img{ width: 600px;
-      height: 500px;
-      display: inline-block;}
-  .img1{width: 600px;
-      height: 500px;
-      background-image: url(Images/Materials/1Create.png);
-      background-repeat: no-repeat;
-      display: inline-block;
-}
-  .img2{ width: 600px;
-      height: 500px;
-      background-image: url(Images/Materials/2Create.png);
-      background-repeat: no-repeat;
-      display: inline-block; 
-      margin: auto;
-  }
-  .img3{ width: 600px;
-      height: 500px;
-      background-image: url(Images/Materials/3Create.png);
-      background-repeat: no-repeat;
-      display: inline-block;   
-      margin: auto;
-  }
-  .mmm{width: 600px;
-      height: 500px;
-      margin:auto;
-      overflow: hidden;
-  }
-  
-  .carousel_box{
-      width: 6000px;
-      height: 500px;
-      margin: auto;
-      overflow: hidden;
-  }
-.text35{ width: 600px;
-height: 50px;
-font-size: 25px;
-margin-left: 25px;
-float: left;}
-.text36{width: 530px;
-height: 105px;
-float: left;
-font-size: 15px;
-margin-left: 25px;
-margin-bottom: 10px;}
+    font-size: 17px;
+}  
+ .text_51{font-weight: 350;
+    line-height: 1.2;
+    color: #333;
+    font-size: 36px;
+    margin-left: 350px;}

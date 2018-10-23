@@ -19,7 +19,7 @@ for ( var i=0; i<lis.length; i++){
 /*CМЕЩЕНИЕ ПОЗИЦИИ 1задали ширину отступа 2 смещаем картинку на определенное кол пикс*/
 var prev = 0;
 
-carousel.querySelector ('.prev').onclick = function(){
+carousel.querySelector('.prev').onclick = function(){
     position = Math.min(position + width * count, 0);
     list.style.marginLeft = position + 'px'};
 /* Проописываем движение картинки принажатиии кнопки в обратную сторону. из позиции мы  отнимаем -штрину ум число*/
